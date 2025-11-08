@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for backend-patient-water-2120 on 2025-11-07T18:20:26+03:00
+# fly.toml app configuration file generated for appback-fn66ja on 2025-11-08T06:56:22Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'backend-patient-water-2120'
+app = 'appback-fn66ja'
 primary_region = 'fra'
 
 [build]
@@ -20,6 +20,4 @@ primary_region = 'fra'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-
-[processes]
-  app = "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+  memory_mb = 1024
