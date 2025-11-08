@@ -1,0 +1,34 @@
+# FastAPI and server
+fastapi[standard]
+uvicorn[standard]
+python-multipart  # Required for file uploads (FormData)
+
+# Database
+supabase
+psycopg2-binary
+pgvector
+sqlalchemy
+alembic
+
+# AI/ML
+openai
+
+# Background tasks
+celery
+redis
+
+# PDF processing
+pypdf2
+pdfplumber
+pymupdf  # PyMuPDF (fitz)
+
+# JWT/Auth
+python-jose[cryptography]
+httpx
+svix
+
+# Utilities
+python-dotenv
+pydantic
+pydantic-settings
+
