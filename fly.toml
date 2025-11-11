@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for appback-fn66ja on 2025-11-08T06:56:22Z
+# fly.toml app configuration file generated for appback-xihxtw on 2025-11-11T08:47:24Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'appback-fn66ja'
+app = 'appback-xihxtw'
 primary_region = 'fra'
 
 [build]
